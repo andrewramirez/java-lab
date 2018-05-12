@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Java Lab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+    <div id="start-wrapper">
+        <button id="startButton" class="gameStartButton" onclick="startGame()">Start</button>
+    </div>
+    <div id="game-wrapper" style="display:none">
+        <div class="buttonOptions">
+            <button class="options" onclick="startGame()">Attack</button>
+            <button class="options" onclick="startGame()">Heal</button>
+            <button class="options" onclick="startGame()">Quit</button>
+        </div>
+
+        <div class="console">
+            <h2 class="titles">Player Stats</h2>
+            <div class= "playerStats">
+                <span>Name</span>
+                <span>Health</span>
+                <span>HealCount</span>
+                <span>Wins</span>
+            </div>
+            <div>
+                <progress value="40" max="100">
+                </progress>
+                <progress value="40" max="100">
+                </progress>
+                <progress value="40" max="100">
+                </progress>
+
+            </div>
+            <div>
+                <h2 class="titles"> Enemy Stats</h2>
+                <div>
+                    <span>Name</span>
+                </div>
+                <span>Health</span>
+                <progress value="22" max="100">
+                </progress>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

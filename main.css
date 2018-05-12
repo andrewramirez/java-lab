@@ -1,0 +1,56 @@
+body {
+    background-color: skyblue;
+}
+
+.options {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: left;
+    border: 1px solid green;
+}
+
+.gameStartButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#game-wrapper {
+    display: none;
+}
+
+.buttonOptions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.console {
+    border: 1px solid black;
+    margin: auto;
+    width: 900px;
+}
+.playerStats{
+    margin:auto;
+    justify-content: space-between;
+}
+
+.titles {
+    align-content: center;
+}
